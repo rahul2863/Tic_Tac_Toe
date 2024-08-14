@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: antiquewhite;
+    gap: 2rem;
+}
+
+.main{
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 305px;
+    height: 40vh;
+    align-self: center;
+
+}
+
+.main div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
+
+.main #div-0, #div-1,#div-3,#div-4{
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+}
+.main #div-6,#div-7{
+    border-right: 3px solid black;
+}
+
+.main #div-2, #div-5{
+    border-bottom: 3px solid black;
+}
+
+.main div button{
+    height: 100px;
+    width: 100px;
+    background-color: antiquewhite;
+    border: none;
+    
+}
+
+.result{
+    height: 100px;
+    width: 305px;
+}
+.result h2{
+    text-align: center;
+}
